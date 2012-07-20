@@ -39,18 +39,17 @@
 
 #import "Facebook+Singleton.h"
 
-@interface Facebook (SingletonPrivate)
+/*@interface Facebook (SingletonPrivate)
 - (void)authorize:(NSArray *)permissions localAppId:(NSString *)localAppId;
 - (void)authorizeInApp:(NSArray *)permissions localAppId:(NSString *)localAppId;
 - (void)authorizeWithFacebookApp:(NSArray *)permissions localAppId:(NSString *)localAppId;
 - (void)authorizeWithFBAppAuth:(BOOL)tryFBAppAuth safariAuth:(BOOL)trySafariAuth;
-@end
+@end*/
 
 @implementation Facebook (Singleton)
 
 - (id)init {
-    if ((self = [super init])) {
-        [self initWithAppId:@"364390736967265"];
+    if ((self = [self initWithAppId:@"364390736967265" andDelegate:self])) {
         [self authorize];
     }
     return self;
@@ -70,7 +69,8 @@
         
         // This is the method Facebook wants users to use. 
         // It will leave your app and authoize through the Facebook app or Safari.
-        [self authorize:nil localAppId:nil];
+        NSArray *permissions =  [NSArray arrayWithObjects:@"email", @"user_about_me", nil];
+        [self authorize:permissions/* localAppId:nil*/];
         
         // This will authorize from within your app.
         // It will not leave your app nor take advantage of the user logged in elsewhere.
@@ -82,7 +82,7 @@
     }
 }
 
-- (void)authorize:(NSArray *)permissions localAppId:(NSString *)localAppId {
+/*- (void)authorize:(NSArray *)permissions localAppId:(NSString *)localAppId {
     self.localAppId = localAppId;
     _permissions = permissions;
     _sessionDelegate = self;
@@ -104,7 +104,7 @@
     _sessionDelegate = self;
     
     [self authorizeWithFBAppAuth:YES safariAuth:NO];
-}
+}*/
 
 - (void)logout {
     [self logout:self];
@@ -121,6 +121,7 @@
     [defaults setObject:[self expirationDate] forKey:kFBExpirationDateKey];
     [defaults synchronize];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"FBDidLogin" object:self];
+    NSLog(@"En Login El Token es %@ y el expiration date es %@", [self accessToken], [self expirationDate]);
 }
 
 /**
@@ -144,6 +145,7 @@
     [defaults removeObjectForKey:kFBExpirationDateKey];
     [defaults synchronize];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"FBDidLogout" object:self];
+    NSLog(@"En Logout El Token es %@ y el expiration date es %@", [self accessToken], [self expirationDate]);
 }
 
 #pragma mark - Singleton Methods
@@ -153,11 +155,11 @@ static Facebook *shared = nil;
 + (Facebook *)shared {
 	@synchronized(self) {
 		if(shared == nil)
-			[[self alloc] init];
+			shared = [[self alloc] init];
 	}
 	return shared;
 }
-+ (id)allocWithZone:(NSZone *)zone {
+/*+ (id)allocWithZone:(NSZone *)zone {
 	@synchronized(self) {
 		if(shared == nil)  {
 			shared = [super allocWithZone:zone];
@@ -180,7 +182,7 @@ static Facebook *shared = nil;
 }
 - (id)autorelease {
 	return self;
-}
+}*/
 
 
 @end

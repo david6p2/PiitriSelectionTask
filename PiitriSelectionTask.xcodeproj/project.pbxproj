@@ -19,7 +19,7 @@
 		24B6C5A215B9D5C000022A4F /* piitri-logo-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5A115B9D5C000022A4F /* piitri-logo-iPad@2x.png */; };
 		24B6C5B715B9D9F200022A4F /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5AA15B9D9F200022A4F /* FBDialog.bundle */; };
 		24B6C5B815B9D9F200022A4F /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6C5B015B9D9F200022A4F /* libfacebook_ios_sdk.a */; };
-		24B6C5BB15B9DA2900022A4F /* Facebook+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C5BA15B9DA2900022A4F /* Facebook+Singleton.m */; };
+		24B6C5C615B9F71200022A4F /* Facebook+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C5C515B9F71200022A4F /* Facebook+Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +53,8 @@
 		24B6C5B415B9D9F200022A4F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
 		24B6C5B515B9D9F200022A4F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
 		24B6C5B615B9D9F200022A4F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		24B6C5B915B9DA2900022A4F /* Facebook+Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Facebook+Singleton.h"; sourceTree = "<group>"; };
-		24B6C5BA15B9DA2900022A4F /* Facebook+Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Facebook+Singleton.m"; sourceTree = "<group>"; };
+		24B6C5C415B9F71200022A4F /* Facebook+Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Facebook+Singleton.h"; sourceTree = "<group>"; };
+		24B6C5C515B9F71200022A4F /* Facebook+Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Facebook+Singleton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 		24B6C58615B9CB6700022A4F /* PiitriSelectionTask */ = {
 			isa = PBXGroup;
 			children = (
-				24B6C5B915B9DA2900022A4F /* Facebook+Singleton.h */,
-				24B6C5BA15B9DA2900022A4F /* Facebook+Singleton.m */,
+				24B6C5C415B9F71200022A4F /* Facebook+Singleton.h */,
+				24B6C5C515B9F71200022A4F /* Facebook+Singleton.m */,
 				24B6C58F15B9CB6700022A4F /* AppDelegate.h */,
 				24B6C59015B9CB6700022A4F /* AppDelegate.m */,
 				24B6C59215B9CB6700022A4F /* MainStoryboard.storyboard */,
@@ -219,7 +219,7 @@
 				24B6C58D15B9CB6700022A4F /* main.m in Sources */,
 				24B6C59115B9CB6700022A4F /* AppDelegate.m in Sources */,
 				24B6C59715B9CB6700022A4F /* ViewController.m in Sources */,
-				24B6C5BB15B9DA2900022A4F /* Facebook+Singleton.m in Sources */,
+				24B6C5C615B9F71200022A4F /* Facebook+Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

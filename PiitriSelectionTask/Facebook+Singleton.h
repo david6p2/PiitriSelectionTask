@@ -45,7 +45,7 @@
 @interface Facebook (Singleton) <FBSessionDelegate>
 
 - (void)authorize;
-- (void)logout;
+//- (void)logout;
 
 + (Facebook *)shared;
 
