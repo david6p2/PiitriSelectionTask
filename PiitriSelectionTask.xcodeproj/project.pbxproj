@@ -15,6 +15,11 @@
 		24B6C59115B9CB6700022A4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C59015B9CB6700022A4F /* AppDelegate.m */; };
 		24B6C59415B9CB6700022A4F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C59215B9CB6700022A4F /* MainStoryboard.storyboard */; };
 		24B6C59715B9CB6700022A4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C59615B9CB6700022A4F /* ViewController.m */; };
+		24B6C59E15B9D11A00022A4F /* piitri-logo-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C59D15B9D11A00022A4F /* piitri-logo-iPad.png */; };
+		24B6C5A215B9D5C000022A4F /* piitri-logo-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5A115B9D5C000022A4F /* piitri-logo-iPad@2x.png */; };
+		24B6C5B715B9D9F200022A4F /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5AA15B9D9F200022A4F /* FBDialog.bundle */; };
+		24B6C5B815B9D9F200022A4F /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6C5B015B9D9F200022A4F /* libfacebook_ios_sdk.a */; };
+		24B6C5BB15B9DA2900022A4F /* Facebook+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C5BA15B9DA2900022A4F /* Facebook+Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,34 @@
 		24B6C58015B9CB6700022A4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24B6C58215B9CB6700022A4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24B6C58415B9CB6700022A4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24B6C58815B9CB6700022A4F /* PiitriSelectionTask-Info.plist */ = {isa = PBXFileReference; path = "PiitriSelectionTask-Info.plist"; sourceTree = "<group>"; };
+		24B6C58815B9CB6700022A4F /* PiitriSelectionTask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PiitriSelectionTask-Info.plist"; sourceTree = "<group>"; };
 		24B6C58A15B9CB6700022A4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24B6C58C15B9CB6700022A4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24B6C58E15B9CB6700022A4F /* PiitriSelectionTask-Prefix.pch */ = {isa = PBXFileReference; path = "PiitriSelectionTask-Prefix.pch"; sourceTree = "<group>"; };
-		24B6C58F15B9CB6700022A4F /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		24B6C58E15B9CB6700022A4F /* PiitriSelectionTask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PiitriSelectionTask-Prefix.pch"; sourceTree = "<group>"; };
+		24B6C58F15B9CB6700022A4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24B6C59015B9CB6700022A4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24B6C59315B9CB6700022A4F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		24B6C59515B9CB6700022A4F /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		24B6C59515B9CB6700022A4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24B6C59615B9CB6700022A4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24B6C59D15B9D11A00022A4F /* piitri-logo-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piitri-logo-iPad.png"; sourceTree = "<group>"; };
+		24B6C5A115B9D5C000022A4F /* piitri-logo-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piitri-logo-iPad@2x.png"; sourceTree = "<group>"; };
+		24B6C5A815B9D9F200022A4F /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		24B6C5A915B9D9F200022A4F /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		24B6C5AA15B9D9F200022A4F /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		24B6C5AB15B9D9F200022A4F /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		24B6C5AC15B9D9F200022A4F /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		24B6C5AD15B9D9F200022A4F /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		24B6C5AE15B9D9F200022A4F /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		24B6C5AF15B9D9F200022A4F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		24B6C5B015B9D9F200022A4F /* libfacebook_ios_sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfacebook_ios_sdk.a; sourceTree = "<group>"; };
+		24B6C5B115B9D9F200022A4F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		24B6C5B215B9D9F200022A4F /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		24B6C5B315B9D9F200022A4F /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		24B6C5B415B9D9F200022A4F /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		24B6C5B515B9D9F200022A4F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		24B6C5B615B9D9F200022A4F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		24B6C5B915B9DA2900022A4F /* Facebook+Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Facebook+Singleton.h"; sourceTree = "<group>"; };
+		24B6C5BA15B9DA2900022A4F /* Facebook+Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Facebook+Singleton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +65,7 @@
 				24B6C58115B9CB6700022A4F /* UIKit.framework in Frameworks */,
 				24B6C58315B9CB6700022A4F /* Foundation.framework in Frameworks */,
 				24B6C58515B9CB6700022A4F /* CoreGraphics.framework in Frameworks */,
+				24B6C5B815B9D9F200022A4F /* libfacebook_ios_sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +75,8 @@
 		24B6C57115B9CB6700022A4F = {
 			isa = PBXGroup;
 			children = (
+				24B6C5A115B9D5C000022A4F /* piitri-logo-iPad@2x.png */,
+				24B6C59D15B9D11A00022A4F /* piitri-logo-iPad.png */,
 				24B6C58615B9CB6700022A4F /* PiitriSelectionTask */,
 				24B6C57F15B9CB6700022A4F /* Frameworks */,
 				24B6C57D15B9CB6700022A4F /* Products */,
@@ -77,6 +104,8 @@
 		24B6C58615B9CB6700022A4F /* PiitriSelectionTask */ = {
 			isa = PBXGroup;
 			children = (
+				24B6C5B915B9DA2900022A4F /* Facebook+Singleton.h */,
+				24B6C5BA15B9DA2900022A4F /* Facebook+Singleton.m */,
 				24B6C58F15B9CB6700022A4F /* AppDelegate.h */,
 				24B6C59015B9CB6700022A4F /* AppDelegate.m */,
 				24B6C59215B9CB6700022A4F /* MainStoryboard.storyboard */,
@@ -90,12 +119,35 @@
 		24B6C58715B9CB6700022A4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				24B6C5A715B9D9F200022A4F /* facebook-ios-sdk */,
 				24B6C58815B9CB6700022A4F /* PiitriSelectionTask-Info.plist */,
 				24B6C58915B9CB6700022A4F /* InfoPlist.strings */,
 				24B6C58C15B9CB6700022A4F /* main.m */,
 				24B6C58E15B9CB6700022A4F /* PiitriSelectionTask-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24B6C5A715B9D9F200022A4F /* facebook-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				24B6C5A815B9D9F200022A4F /* Facebook.h */,
+				24B6C5A915B9D9F200022A4F /* FBConnect.h */,
+				24B6C5AA15B9D9F200022A4F /* FBDialog.bundle */,
+				24B6C5AB15B9D9F200022A4F /* FBDialog.h */,
+				24B6C5AC15B9D9F200022A4F /* FBFrictionlessRequestSettings.h */,
+				24B6C5AD15B9D9F200022A4F /* FBLoginDialog.h */,
+				24B6C5AE15B9D9F200022A4F /* FBRequest.h */,
+				24B6C5AF15B9D9F200022A4F /* JSON.h */,
+				24B6C5B015B9D9F200022A4F /* libfacebook_ios_sdk.a */,
+				24B6C5B115B9D9F200022A4F /* NSObject+SBJSON.h */,
+				24B6C5B215B9D9F200022A4F /* NSString+SBJSON.h */,
+				24B6C5B315B9D9F200022A4F /* SBJSON.h */,
+				24B6C5B415B9D9F200022A4F /* SBJsonBase.h */,
+				24B6C5B515B9D9F200022A4F /* SBJsonParser.h */,
+				24B6C5B615B9D9F200022A4F /* SBJsonWriter.h */,
+			);
+			path = "facebook-ios-sdk";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +203,9 @@
 			files = (
 				24B6C58B15B9CB6700022A4F /* InfoPlist.strings in Resources */,
 				24B6C59415B9CB6700022A4F /* MainStoryboard.storyboard in Resources */,
+				24B6C59E15B9D11A00022A4F /* piitri-logo-iPad.png in Resources */,
+				24B6C5A215B9D5C000022A4F /* piitri-logo-iPad@2x.png in Resources */,
+				24B6C5B715B9D9F200022A4F /* FBDialog.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +219,7 @@
 				24B6C58D15B9CB6700022A4F /* main.m in Sources */,
 				24B6C59115B9CB6700022A4F /* AppDelegate.m in Sources */,
 				24B6C59715B9CB6700022A4F /* ViewController.m in Sources */,
+				24B6C5BB15B9DA2900022A4F /* Facebook+Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +298,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PiitriSelectionTask/PiitriSelectionTask-Prefix.pch";
 				INFOPLIST_FILE = "PiitriSelectionTask/PiitriSelectionTask-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PiitriSelectionTask/facebook-ios-sdk\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -253,6 +313,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PiitriSelectionTask/PiitriSelectionTask-Prefix.pch";
 				INFOPLIST_FILE = "PiitriSelectionTask/PiitriSelectionTask-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PiitriSelectionTask/facebook-ios-sdk\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
