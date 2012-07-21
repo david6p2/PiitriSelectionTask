@@ -21,7 +21,10 @@ int numero = 1;
 
 - (id)init {
     if ((self = [super init])) {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(requestFacebookData) name:@"FBDidLogin" object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self 
+                                                 selector:@selector(requestFacebookData) 
+                                                     name:@"FBDidLogin" 
+                                                   object:nil];
     }
     return self;
 }
@@ -38,7 +41,10 @@ int numero = 1;
     [self setCajaTextoLogin:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"FBDidLogin" object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self 
+                                                    name:@"FBDidLogin" 
+                                                  object:nil];
+
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -54,11 +60,8 @@ int numero = 1;
     self.cajaTextoLogin.text = textoDeCaja;
     [self requestFacebookData];
     numero=numero+1;
-    /*self.cajaTextoLogin.text = @"En Login El Token es %@ y el expiration date es %@", [[Facebook shared]  objec kFBAccessTokenKey], [[Facebook shared] FBAccessTokenKey];*/
-    /*NSLog(@"Los datos del usuario son %@", [[Facebook shared] result]);*/
     
 }
-//**********************************
 
 - (void)requestFacebookData {
     [[Facebook shared] requestWithGraphPath:@"me?fields=id,email,name,picture,birthday,location" andDelegate:self];
@@ -67,9 +70,11 @@ int numero = 1;
 
 - (void)request:(FBRequest *)request didLoad:(id)result {
     NSLog(@"FB request OK");
-    NSLog(@"FB el request result es: %@", result);
+    NSDictionary * userData = [[NSDictionary alloc] initWithDictionary:result];
+    NSLog(@"La url del request es: %@", request.url);
+    NSLog(@"FB el request result es: %@", userData);
     // Access Token an Expiration Day asignation
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
     NSString * AccessTokenClave = [defaults objectForKey:kFBAccessTokenKey]; 
     NSDate * datoExpirationDate = [defaults objectForKey:kFBExpirationDateKey];
     
@@ -85,6 +90,9 @@ int numero = 1;
     NSString * textoExpirationDate = [dateFormatter stringFromDate:datoExpirationDate];
 
     [textoDeCaja appendString:textoExpirationDate];
+    
+    [defaults setObject:userData forKey:@"DatosdeUsuario"];
+    [defaults synchronize];
     
     self.cajaTextoLogin.text = textoDeCaja;
 }

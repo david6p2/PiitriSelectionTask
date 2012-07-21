@@ -69,7 +69,7 @@
         
         // This is the method Facebook wants users to use. 
         // It will leave your app and authoize through the Facebook app or Safari.
-        NSArray *permissions =  [NSArray arrayWithObjects:@"email", @"picture", @"user_about_me", nil];
+        NSArray *permissions =  [NSArray arrayWithObjects:@"email", @"user_photos", @"user_about_me",@"user_birthday", nil];
         [self authorize:permissions/* localAppId:nil*/];
         
         // This will authorize from within your app.
