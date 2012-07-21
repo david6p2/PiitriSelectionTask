@@ -20,6 +20,22 @@
 		24B6C5B715B9D9F200022A4F /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5AA15B9D9F200022A4F /* FBDialog.bundle */; };
 		24B6C5B815B9D9F200022A4F /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6C5B015B9D9F200022A4F /* libfacebook_ios_sdk.a */; };
 		24B6C5C615B9F71200022A4F /* Facebook+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C5C515B9F71200022A4F /* Facebook+Singleton.m */; };
+		24B6C5CF15BA07E200022A4F /* btn-fbconnect-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5C815BA07E200022A4F /* btn-fbconnect-active@2x.png */; };
+		24B6C5D015BA07E200022A4F /* btn-fbconnect-inactive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5C915BA07E200022A4F /* btn-fbconnect-inactive@2x.png */; };
+		24B6C5D115BA07E200022A4F /* fbconnect-dialog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5CA15BA07E200022A4F /* fbconnect-dialog@2x.png */; };
+		24B6C5D215BA07E200022A4F /* light-box-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5CB15BA07E200022A4F /* light-box-black@2x.png */; };
+		24B6C5D315BA07E200022A4F /* log-in-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5CC15BA07E200022A4F /* log-in-bg@2x.png */; };
+		24B6C5D415BA07E200022A4F /* piitri-logo-lg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5CD15BA07E200022A4F /* piitri-logo-lg@2x.png */; };
+		24B6C5D515BA07E200022A4F /* top-header-curve@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5CE15BA07E200022A4F /* top-header-curve@2x.png */; };
+		24B6C5DC15BA0AF700022A4F /* btn-fbconnect-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5D615BA0AF700022A4F /* btn-fbconnect-active.png */; };
+		24B6C5DD15BA0AF700022A4F /* btn-fbconnect-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5D715BA0AF700022A4F /* btn-fbconnect-inactive.png */; };
+		24B6C5DE15BA0AF700022A4F /* fbconnect-dialog.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5D815BA0AF700022A4F /* fbconnect-dialog.png */; };
+		24B6C5DF15BA0AF700022A4F /* light-box-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5D915BA0AF700022A4F /* light-box-black.png */; };
+		24B6C5E015BA0AF700022A4F /* log-in-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5DA15BA0AF700022A4F /* log-in-bg.png */; };
+		24B6C5E115BA0AF700022A4F /* top-header-curve.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5DB15BA0AF700022A4F /* top-header-curve.png */; };
+		24B6C5E415BA10DB00022A4F /* btn-fbconnect-logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5E215BA10DB00022A4F /* btn-fbconnect-logout.png */; };
+		24B6C5E515BA10DB00022A4F /* btn-fbconnect-logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5E315BA10DB00022A4F /* btn-fbconnect-logout@2x.png */; };
+		24B6C5E815BA126D00022A4F /* ParentPortalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C5E715BA126D00022A4F /* ParentPortalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +71,23 @@
 		24B6C5B615B9D9F200022A4F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		24B6C5C415B9F71200022A4F /* Facebook+Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Facebook+Singleton.h"; sourceTree = "<group>"; };
 		24B6C5C515B9F71200022A4F /* Facebook+Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Facebook+Singleton.m"; sourceTree = "<group>"; };
+		24B6C5C815BA07E200022A4F /* btn-fbconnect-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-fbconnect-active@2x.png"; sourceTree = "<group>"; };
+		24B6C5C915BA07E200022A4F /* btn-fbconnect-inactive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-fbconnect-inactive@2x.png"; sourceTree = "<group>"; };
+		24B6C5CA15BA07E200022A4F /* fbconnect-dialog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fbconnect-dialog@2x.png"; sourceTree = "<group>"; };
+		24B6C5CB15BA07E200022A4F /* light-box-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-box-black@2x.png"; sourceTree = "<group>"; };
+		24B6C5CC15BA07E200022A4F /* log-in-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log-in-bg@2x.png"; sourceTree = "<group>"; };
+		24B6C5CD15BA07E200022A4F /* piitri-logo-lg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piitri-logo-lg@2x.png"; sourceTree = "<group>"; };
+		24B6C5CE15BA07E200022A4F /* top-header-curve@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-header-curve@2x.png"; sourceTree = "<group>"; };
+		24B6C5D615BA0AF700022A4F /* btn-fbconnect-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-fbconnect-active.png"; sourceTree = "<group>"; };
+		24B6C5D715BA0AF700022A4F /* btn-fbconnect-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-fbconnect-inactive.png"; sourceTree = "<group>"; };
+		24B6C5D815BA0AF700022A4F /* fbconnect-dialog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fbconnect-dialog.png"; sourceTree = "<group>"; };
+		24B6C5D915BA0AF700022A4F /* light-box-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-box-black.png"; sourceTree = "<group>"; };
+		24B6C5DA15BA0AF700022A4F /* log-in-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log-in-bg.png"; sourceTree = "<group>"; };
+		24B6C5DB15BA0AF700022A4F /* top-header-curve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top-header-curve.png"; sourceTree = "<group>"; };
+		24B6C5E215BA10DB00022A4F /* btn-fbconnect-logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-fbconnect-logout.png"; sourceTree = "<group>"; };
+		24B6C5E315BA10DB00022A4F /* btn-fbconnect-logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-fbconnect-logout@2x.png"; sourceTree = "<group>"; };
+		24B6C5E615BA126D00022A4F /* ParentPortalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPortalViewController.h; sourceTree = "<group>"; };
+		24B6C5E715BA126D00022A4F /* ParentPortalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentPortalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +108,7 @@
 		24B6C57115B9CB6700022A4F = {
 			isa = PBXGroup;
 			children = (
+				24B6C5C715BA079100022A4F /* Images */,
 				24B6C5A115B9D5C000022A4F /* piitri-logo-iPad@2x.png */,
 				24B6C59D15B9D11A00022A4F /* piitri-logo-iPad.png */,
 				24B6C58615B9CB6700022A4F /* PiitriSelectionTask */,
@@ -108,6 +142,8 @@
 				24B6C5C515B9F71200022A4F /* Facebook+Singleton.m */,
 				24B6C58F15B9CB6700022A4F /* AppDelegate.h */,
 				24B6C59015B9CB6700022A4F /* AppDelegate.m */,
+				24B6C5E615BA126D00022A4F /* ParentPortalViewController.h */,
+				24B6C5E715BA126D00022A4F /* ParentPortalViewController.m */,
 				24B6C59215B9CB6700022A4F /* MainStoryboard.storyboard */,
 				24B6C59515B9CB6700022A4F /* ViewController.h */,
 				24B6C59615B9CB6700022A4F /* ViewController.m */,
@@ -148,6 +184,28 @@
 				24B6C5B615B9D9F200022A4F /* SBJsonWriter.h */,
 			);
 			path = "facebook-ios-sdk";
+			sourceTree = "<group>";
+		};
+		24B6C5C715BA079100022A4F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				24B6C5E215BA10DB00022A4F /* btn-fbconnect-logout.png */,
+				24B6C5E315BA10DB00022A4F /* btn-fbconnect-logout@2x.png */,
+				24B6C5D615BA0AF700022A4F /* btn-fbconnect-active.png */,
+				24B6C5D715BA0AF700022A4F /* btn-fbconnect-inactive.png */,
+				24B6C5D815BA0AF700022A4F /* fbconnect-dialog.png */,
+				24B6C5D915BA0AF700022A4F /* light-box-black.png */,
+				24B6C5DA15BA0AF700022A4F /* log-in-bg.png */,
+				24B6C5DB15BA0AF700022A4F /* top-header-curve.png */,
+				24B6C5C815BA07E200022A4F /* btn-fbconnect-active@2x.png */,
+				24B6C5C915BA07E200022A4F /* btn-fbconnect-inactive@2x.png */,
+				24B6C5CA15BA07E200022A4F /* fbconnect-dialog@2x.png */,
+				24B6C5CB15BA07E200022A4F /* light-box-black@2x.png */,
+				24B6C5CC15BA07E200022A4F /* log-in-bg@2x.png */,
+				24B6C5CD15BA07E200022A4F /* piitri-logo-lg@2x.png */,
+				24B6C5CE15BA07E200022A4F /* top-header-curve@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +264,21 @@
 				24B6C59E15B9D11A00022A4F /* piitri-logo-iPad.png in Resources */,
 				24B6C5A215B9D5C000022A4F /* piitri-logo-iPad@2x.png in Resources */,
 				24B6C5B715B9D9F200022A4F /* FBDialog.bundle in Resources */,
+				24B6C5CF15BA07E200022A4F /* btn-fbconnect-active@2x.png in Resources */,
+				24B6C5D015BA07E200022A4F /* btn-fbconnect-inactive@2x.png in Resources */,
+				24B6C5D115BA07E200022A4F /* fbconnect-dialog@2x.png in Resources */,
+				24B6C5D215BA07E200022A4F /* light-box-black@2x.png in Resources */,
+				24B6C5D315BA07E200022A4F /* log-in-bg@2x.png in Resources */,
+				24B6C5D415BA07E200022A4F /* piitri-logo-lg@2x.png in Resources */,
+				24B6C5D515BA07E200022A4F /* top-header-curve@2x.png in Resources */,
+				24B6C5DC15BA0AF700022A4F /* btn-fbconnect-active.png in Resources */,
+				24B6C5DD15BA0AF700022A4F /* btn-fbconnect-inactive.png in Resources */,
+				24B6C5DE15BA0AF700022A4F /* fbconnect-dialog.png in Resources */,
+				24B6C5DF15BA0AF700022A4F /* light-box-black.png in Resources */,
+				24B6C5E015BA0AF700022A4F /* log-in-bg.png in Resources */,
+				24B6C5E115BA0AF700022A4F /* top-header-curve.png in Resources */,
+				24B6C5E415BA10DB00022A4F /* btn-fbconnect-logout.png in Resources */,
+				24B6C5E515BA10DB00022A4F /* btn-fbconnect-logout@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +293,7 @@
 				24B6C59115B9CB6700022A4F /* AppDelegate.m in Sources */,
 				24B6C59715B9CB6700022A4F /* ViewController.m in Sources */,
 				24B6C5C615B9F71200022A4F /* Facebook+Singleton.m in Sources */,
+				24B6C5E815BA126D00022A4F /* ParentPortalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextView *cajaTextoLogin;
+@property (strong, nonatomic) IBOutlet UIButton *loginFBButton;
+- (IBAction)connectWithFB:(id)sender;
 
 @end

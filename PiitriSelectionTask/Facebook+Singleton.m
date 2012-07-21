@@ -69,7 +69,7 @@
         
         // This is the method Facebook wants users to use. 
         // It will leave your app and authoize through the Facebook app or Safari.
-        NSArray *permissions =  [NSArray arrayWithObjects:@"email", @"user_about_me", nil];
+        NSArray *permissions =  [NSArray arrayWithObjects:@"email", @"picture", @"user_about_me", nil];
         [self authorize:permissions/* localAppId:nil*/];
         
         // This will authorize from within your app.
@@ -104,11 +104,11 @@
     _sessionDelegate = self;
     
     [self authorizeWithFBAppAuth:YES safariAuth:NO];
-}*/
+}
 
 - (void)logout {
     [self logout:self];
-}
+}*/
 
 #pragma - FBSessionDelegate Methods
 
@@ -148,6 +148,27 @@
     NSLog(@"En Logout El Token es %@ y el expiration date es %@", [self accessToken], [self expirationDate]);
 }
 
+/**
+ * Called when a request returns and its response has been parsed into
+ * an object.
+ *
+ * The resulting object may be a dictionary, an array, a string, or a number,
+ * depending on thee format of the API response.
+ */
+- (void)request:(FBRequest *)request didLoad:(id)result {
+    NSLog(@"FB request OK");
+    NSLog(@"FB request result is: %@", result);
+}
+
+/**
+ * Called when an error prevents the Facebook API request from completing
+ * successfully.
+ */
+- (void)request:(FBRequest *)request didFailWithError:(NSError *)error {
+    NSLog(@"FB error: %@", [error localizedDescription]);
+}
+
+
 #pragma mark - Singleton Methods
 
 static Facebook *shared = nil;
@@ -183,6 +204,7 @@ static Facebook *shared = nil;
 - (id)autorelease {
 	return self;
 }*/
+
 
 
 @end
