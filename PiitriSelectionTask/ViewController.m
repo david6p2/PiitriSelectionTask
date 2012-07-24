@@ -15,6 +15,8 @@
 
 @implementation ViewController
 @synthesize cajaTextoLogin;
+@synthesize textCreateAccount;
+@synthesize textWelcome;
 @synthesize loginFBButton;
 
 int numero = 1;
@@ -33,12 +35,21 @@ int numero = 1;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIColor *backgroundLogin = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"log-in-bg.png"]];
+    self.view.backgroundColor = backgroundLogin;
+    /*self.textCreateAccount.font = [UIFont boldSystemFontOfSize:48];*/
+    self.textCreateAccount.font = [UIFont fontWithName:@"Open Sans"  size:48];
+    self.textWelcome.font = [UIFont fontWithName:@"Open Sans"  size:16];
+    
 }
 
 - (void)viewDidUnload
 {
     [self setLoginFBButton:nil];
     [self setCajaTextoLogin:nil];
+    [self setTextCreateAccount:nil];
+    [self setTextWelcome:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     [[NSNotificationCenter defaultCenter] removeObserver:self 
@@ -95,6 +106,8 @@ int numero = 1;
     [defaults synchronize];
     
     self.cajaTextoLogin.text = textoDeCaja;
+    
+    
 }
 
 

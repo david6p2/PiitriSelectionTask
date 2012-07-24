@@ -46,6 +46,42 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MetaPluBlaIta</string>
+		<string>MetaPluBlaRom</string>
+        <string>MetaPlusBlack</string>
+        <string>MetaPluBolCap</string>
+        <string>MetaPluBolCapIta</string>
+        <string>MetaPluBolIta</string>
+        <string>MetaPluBolRom</string>
+        <string>MetaPlusBold</string>
+        <string>MetaPluBooCap</string>
+        <string>MetaPluBooCapIta</string>
+        <string>MetaPluBooIta</string>
+        <string>MetaPluBooRom</string>
+        <string>MetaPlusBook</string>
+        <string>MetaPluMedCap</string>
+        <string>MetaPluMedCapIta</string>
+        <string>MetaPluMedIta</string>
+        <string>MetaPluMedRom</string>
+        <string>MetaPlusMedium</string>
+        <string>MetaPluNorCap</string>
+        <string>MetaPluNorCapIta</string>
+        <string>MetaPluNorIta</string>
+        <string>MetaPluNorRom</string>
+        <string>MetaPlusNormal</string>
+        <string>OpenSans-Bold.ttf</string>
+        <string>OpenSans-BoldItalic.ttf</string>
+        <string>OpenSans-ExtraBold.ttf</string>
+        <string>OpenSans-ExtraBoldItalic.ttf</string>
+        <string>OpenSans-Italic.ttf</string>
+        <string>OpenSans-Light.ttf</string>
+        <string>OpenSans-LightItalic.ttf</string>
+        <string>OpenSans-Regular.ttf</string>
+        <string>OpenSans-Semibold.ttf</string>
+        <string>OpenSans-SemiboldItalic.ttf</string>
+	</array>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>

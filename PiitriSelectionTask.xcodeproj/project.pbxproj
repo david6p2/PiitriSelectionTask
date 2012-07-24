@@ -36,6 +36,41 @@
 		24B6C5E415BA10DB00022A4F /* btn-fbconnect-logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5E215BA10DB00022A4F /* btn-fbconnect-logout.png */; };
 		24B6C5E515BA10DB00022A4F /* btn-fbconnect-logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B6C5E315BA10DB00022A4F /* btn-fbconnect-logout@2x.png */; };
 		24B6C5E815BA126D00022A4F /* ParentPortalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6C5E715BA126D00022A4F /* ParentPortalViewController.m */; };
+		24F8577015BE144600DE6714 /* piitri-logo-lg.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F8576F15BE144600DE6714 /* piitri-logo-lg.png */; };
+		24F8579B15BE1EB100DE6714 /* MetaPluBlaIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577415BE1EB100DE6714 /* MetaPluBlaIta */; };
+		24F8579C15BE1EB100DE6714 /* MetaPluBlaRom in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577515BE1EB100DE6714 /* MetaPluBlaRom */; };
+		24F8579D15BE1EB100DE6714 /* MetaPlusBlack in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577615BE1EB100DE6714 /* MetaPlusBlack */; };
+		24F8579E15BE1EB100DE6714 /* MetaPluBolCap in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577815BE1EB100DE6714 /* MetaPluBolCap */; };
+		24F8579F15BE1EB100DE6714 /* MetaPluBolCapIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577915BE1EB100DE6714 /* MetaPluBolCapIta */; };
+		24F857A015BE1EB100DE6714 /* MetaPluBolIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577A15BE1EB100DE6714 /* MetaPluBolIta */; };
+		24F857A115BE1EB100DE6714 /* MetaPluBolRom in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577B15BE1EB100DE6714 /* MetaPluBolRom */; };
+		24F857A215BE1EB100DE6714 /* MetaPlusBold in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577C15BE1EB100DE6714 /* MetaPlusBold */; };
+		24F857A315BE1EB100DE6714 /* MetaPluBooCap in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577E15BE1EB100DE6714 /* MetaPluBooCap */; };
+		24F857A415BE1EB100DE6714 /* MetaPluBooCapIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8577F15BE1EB100DE6714 /* MetaPluBooCapIta */; };
+		24F857A515BE1EB100DE6714 /* MetaPluBooIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578015BE1EB100DE6714 /* MetaPluBooIta */; };
+		24F857A615BE1EB100DE6714 /* MetaPluBooRom in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578115BE1EB100DE6714 /* MetaPluBooRom */; };
+		24F857A715BE1EB100DE6714 /* MetaPlusBook in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578215BE1EB100DE6714 /* MetaPlusBook */; };
+		24F857A815BE1EB100DE6714 /* MetaPluMedCap in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578415BE1EB100DE6714 /* MetaPluMedCap */; };
+		24F857A915BE1EB100DE6714 /* MetaPluMedCapIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578515BE1EB100DE6714 /* MetaPluMedCapIta */; };
+		24F857AA15BE1EB100DE6714 /* MetaPluMedIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578615BE1EB100DE6714 /* MetaPluMedIta */; };
+		24F857AB15BE1EB100DE6714 /* MetaPluMedRom in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578715BE1EB100DE6714 /* MetaPluMedRom */; };
+		24F857AC15BE1EB100DE6714 /* MetaPlusMedium in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578815BE1EB100DE6714 /* MetaPlusMedium */; };
+		24F857AD15BE1EB100DE6714 /* MetaPluNorCap in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578A15BE1EB100DE6714 /* MetaPluNorCap */; };
+		24F857AE15BE1EB100DE6714 /* MetaPluNorCapIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578B15BE1EB100DE6714 /* MetaPluNorCapIta */; };
+		24F857AF15BE1EB100DE6714 /* MetaPluNorIta in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578C15BE1EB100DE6714 /* MetaPluNorIta */; };
+		24F857B015BE1EB100DE6714 /* MetaPluNorRom in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578D15BE1EB100DE6714 /* MetaPluNorRom */; };
+		24F857B115BE1EB100DE6714 /* MetaPlusNormal in Resources */ = {isa = PBXBuildFile; fileRef = 24F8578E15BE1EB100DE6714 /* MetaPlusNormal */; };
+		24F857B215BE1EB100DE6714 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579015BE1EB100DE6714 /* LICENSE.txt */; };
+		24F857B315BE1EB100DE6714 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579115BE1EB100DE6714 /* OpenSans-Bold.ttf */; };
+		24F857B415BE1EB100DE6714 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579215BE1EB100DE6714 /* OpenSans-BoldItalic.ttf */; };
+		24F857B515BE1EB100DE6714 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579315BE1EB100DE6714 /* OpenSans-ExtraBold.ttf */; };
+		24F857B615BE1EB100DE6714 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579415BE1EB100DE6714 /* OpenSans-ExtraBoldItalic.ttf */; };
+		24F857B715BE1EB100DE6714 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579515BE1EB100DE6714 /* OpenSans-Italic.ttf */; };
+		24F857B815BE1EB100DE6714 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579615BE1EB100DE6714 /* OpenSans-Light.ttf */; };
+		24F857B915BE1EB100DE6714 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579715BE1EB100DE6714 /* OpenSans-LightItalic.ttf */; };
+		24F857BA15BE1EB100DE6714 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579815BE1EB100DE6714 /* OpenSans-Regular.ttf */; };
+		24F857BB15BE1EB100DE6714 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579915BE1EB100DE6714 /* OpenSans-Semibold.ttf */; };
+		24F857BC15BE1EB100DE6714 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24F8579A15BE1EB100DE6714 /* OpenSans-SemiboldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +123,41 @@
 		24B6C5E315BA10DB00022A4F /* btn-fbconnect-logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-fbconnect-logout@2x.png"; sourceTree = "<group>"; };
 		24B6C5E615BA126D00022A4F /* ParentPortalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentPortalViewController.h; sourceTree = "<group>"; };
 		24B6C5E715BA126D00022A4F /* ParentPortalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentPortalViewController.m; sourceTree = "<group>"; };
+		24F8576F15BE144600DE6714 /* piitri-logo-lg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "piitri-logo-lg.png"; sourceTree = "<group>"; };
+		24F8577415BE1EB100DE6714 /* MetaPluBlaIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBlaIta; sourceTree = "<group>"; };
+		24F8577515BE1EB100DE6714 /* MetaPluBlaRom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBlaRom; sourceTree = "<group>"; };
+		24F8577615BE1EB100DE6714 /* MetaPlusBlack */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPlusBlack; sourceTree = "<group>"; };
+		24F8577815BE1EB100DE6714 /* MetaPluBolCap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBolCap; sourceTree = "<group>"; };
+		24F8577915BE1EB100DE6714 /* MetaPluBolCapIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBolCapIta; sourceTree = "<group>"; };
+		24F8577A15BE1EB100DE6714 /* MetaPluBolIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBolIta; sourceTree = "<group>"; };
+		24F8577B15BE1EB100DE6714 /* MetaPluBolRom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBolRom; sourceTree = "<group>"; };
+		24F8577C15BE1EB100DE6714 /* MetaPlusBold */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPlusBold; sourceTree = "<group>"; };
+		24F8577E15BE1EB100DE6714 /* MetaPluBooCap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBooCap; sourceTree = "<group>"; };
+		24F8577F15BE1EB100DE6714 /* MetaPluBooCapIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBooCapIta; sourceTree = "<group>"; };
+		24F8578015BE1EB100DE6714 /* MetaPluBooIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBooIta; sourceTree = "<group>"; };
+		24F8578115BE1EB100DE6714 /* MetaPluBooRom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluBooRom; sourceTree = "<group>"; };
+		24F8578215BE1EB100DE6714 /* MetaPlusBook */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPlusBook; sourceTree = "<group>"; };
+		24F8578415BE1EB100DE6714 /* MetaPluMedCap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluMedCap; sourceTree = "<group>"; };
+		24F8578515BE1EB100DE6714 /* MetaPluMedCapIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluMedCapIta; sourceTree = "<group>"; };
+		24F8578615BE1EB100DE6714 /* MetaPluMedIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluMedIta; sourceTree = "<group>"; };
+		24F8578715BE1EB100DE6714 /* MetaPluMedRom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluMedRom; sourceTree = "<group>"; };
+		24F8578815BE1EB100DE6714 /* MetaPlusMedium */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPlusMedium; sourceTree = "<group>"; };
+		24F8578A15BE1EB100DE6714 /* MetaPluNorCap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluNorCap; sourceTree = "<group>"; };
+		24F8578B15BE1EB100DE6714 /* MetaPluNorCapIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluNorCapIta; sourceTree = "<group>"; };
+		24F8578C15BE1EB100DE6714 /* MetaPluNorIta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluNorIta; sourceTree = "<group>"; };
+		24F8578D15BE1EB100DE6714 /* MetaPluNorRom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPluNorRom; sourceTree = "<group>"; };
+		24F8578E15BE1EB100DE6714 /* MetaPlusNormal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetaPlusNormal; sourceTree = "<group>"; };
+		24F8579015BE1EB100DE6714 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		24F8579115BE1EB100DE6714 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		24F8579215BE1EB100DE6714 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		24F8579315BE1EB100DE6714 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		24F8579415BE1EB100DE6714 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		24F8579515BE1EB100DE6714 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		24F8579615BE1EB100DE6714 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		24F8579715BE1EB100DE6714 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		24F8579815BE1EB100DE6714 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		24F8579915BE1EB100DE6714 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		24F8579A15BE1EB100DE6714 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +178,7 @@
 		24B6C57115B9CB6700022A4F = {
 			isa = PBXGroup;
 			children = (
+				24F8577115BE1EB100DE6714 /* fonts */,
 				24B6C5C715BA079100022A4F /* Images */,
 				24B6C5A115B9D5C000022A4F /* piitri-logo-iPad@2x.png */,
 				24B6C59D15B9D11A00022A4F /* piitri-logo-iPad.png */,
@@ -202,10 +273,109 @@
 				24B6C5CA15BA07E200022A4F /* fbconnect-dialog@2x.png */,
 				24B6C5CB15BA07E200022A4F /* light-box-black@2x.png */,
 				24B6C5CC15BA07E200022A4F /* log-in-bg@2x.png */,
+				24F8576F15BE144600DE6714 /* piitri-logo-lg.png */,
 				24B6C5CD15BA07E200022A4F /* piitri-logo-lg@2x.png */,
 				24B6C5CE15BA07E200022A4F /* top-header-curve@2x.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		24F8577115BE1EB100DE6714 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				24F8577215BE1EB100DE6714 /* Meta Plus */,
+				24F8578F15BE1EB100DE6714 /* Open Sans */,
+			);
+			name = fonts;
+			path = PiitriSelectionTask/fonts;
+			sourceTree = "<group>";
+		};
+		24F8577215BE1EB100DE6714 /* Meta Plus */ = {
+			isa = PBXGroup;
+			children = (
+				24F8577315BE1EB100DE6714 /* MetaPlusBlack */,
+				24F8577715BE1EB100DE6714 /* MetaPlusBold */,
+				24F8577D15BE1EB100DE6714 /* MetaPlusBook */,
+				24F8578315BE1EB100DE6714 /* MetaPlusMedium */,
+				24F8578915BE1EB100DE6714 /* MetaPlusNormal */,
+			);
+			path = "Meta Plus";
+			sourceTree = "<group>";
+		};
+		24F8577315BE1EB100DE6714 /* MetaPlusBlack */ = {
+			isa = PBXGroup;
+			children = (
+				24F8577415BE1EB100DE6714 /* MetaPluBlaIta */,
+				24F8577515BE1EB100DE6714 /* MetaPluBlaRom */,
+				24F8577615BE1EB100DE6714 /* MetaPlusBlack */,
+			);
+			path = MetaPlusBlack;
+			sourceTree = "<group>";
+		};
+		24F8577715BE1EB100DE6714 /* MetaPlusBold */ = {
+			isa = PBXGroup;
+			children = (
+				24F8577815BE1EB100DE6714 /* MetaPluBolCap */,
+				24F8577915BE1EB100DE6714 /* MetaPluBolCapIta */,
+				24F8577A15BE1EB100DE6714 /* MetaPluBolIta */,
+				24F8577B15BE1EB100DE6714 /* MetaPluBolRom */,
+				24F8577C15BE1EB100DE6714 /* MetaPlusBold */,
+			);
+			path = MetaPlusBold;
+			sourceTree = "<group>";
+		};
+		24F8577D15BE1EB100DE6714 /* MetaPlusBook */ = {
+			isa = PBXGroup;
+			children = (
+				24F8577E15BE1EB100DE6714 /* MetaPluBooCap */,
+				24F8577F15BE1EB100DE6714 /* MetaPluBooCapIta */,
+				24F8578015BE1EB100DE6714 /* MetaPluBooIta */,
+				24F8578115BE1EB100DE6714 /* MetaPluBooRom */,
+				24F8578215BE1EB100DE6714 /* MetaPlusBook */,
+			);
+			path = MetaPlusBook;
+			sourceTree = "<group>";
+		};
+		24F8578315BE1EB100DE6714 /* MetaPlusMedium */ = {
+			isa = PBXGroup;
+			children = (
+				24F8578415BE1EB100DE6714 /* MetaPluMedCap */,
+				24F8578515BE1EB100DE6714 /* MetaPluMedCapIta */,
+				24F8578615BE1EB100DE6714 /* MetaPluMedIta */,
+				24F8578715BE1EB100DE6714 /* MetaPluMedRom */,
+				24F8578815BE1EB100DE6714 /* MetaPlusMedium */,
+			);
+			path = MetaPlusMedium;
+			sourceTree = "<group>";
+		};
+		24F8578915BE1EB100DE6714 /* MetaPlusNormal */ = {
+			isa = PBXGroup;
+			children = (
+				24F8578A15BE1EB100DE6714 /* MetaPluNorCap */,
+				24F8578B15BE1EB100DE6714 /* MetaPluNorCapIta */,
+				24F8578C15BE1EB100DE6714 /* MetaPluNorIta */,
+				24F8578D15BE1EB100DE6714 /* MetaPluNorRom */,
+				24F8578E15BE1EB100DE6714 /* MetaPlusNormal */,
+			);
+			path = MetaPlusNormal;
+			sourceTree = "<group>";
+		};
+		24F8578F15BE1EB100DE6714 /* Open Sans */ = {
+			isa = PBXGroup;
+			children = (
+				24F8579015BE1EB100DE6714 /* LICENSE.txt */,
+				24F8579115BE1EB100DE6714 /* OpenSans-Bold.ttf */,
+				24F8579215BE1EB100DE6714 /* OpenSans-BoldItalic.ttf */,
+				24F8579315BE1EB100DE6714 /* OpenSans-ExtraBold.ttf */,
+				24F8579415BE1EB100DE6714 /* OpenSans-ExtraBoldItalic.ttf */,
+				24F8579515BE1EB100DE6714 /* OpenSans-Italic.ttf */,
+				24F8579615BE1EB100DE6714 /* OpenSans-Light.ttf */,
+				24F8579715BE1EB100DE6714 /* OpenSans-LightItalic.ttf */,
+				24F8579815BE1EB100DE6714 /* OpenSans-Regular.ttf */,
+				24F8579915BE1EB100DE6714 /* OpenSans-Semibold.ttf */,
+				24F8579A15BE1EB100DE6714 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = "Open Sans";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +449,41 @@
 				24B6C5E115BA0AF700022A4F /* top-header-curve.png in Resources */,
 				24B6C5E415BA10DB00022A4F /* btn-fbconnect-logout.png in Resources */,
 				24B6C5E515BA10DB00022A4F /* btn-fbconnect-logout@2x.png in Resources */,
+				24F8577015BE144600DE6714 /* piitri-logo-lg.png in Resources */,
+				24F8579B15BE1EB100DE6714 /* MetaPluBlaIta in Resources */,
+				24F8579C15BE1EB100DE6714 /* MetaPluBlaRom in Resources */,
+				24F8579D15BE1EB100DE6714 /* MetaPlusBlack in Resources */,
+				24F8579E15BE1EB100DE6714 /* MetaPluBolCap in Resources */,
+				24F8579F15BE1EB100DE6714 /* MetaPluBolCapIta in Resources */,
+				24F857A015BE1EB100DE6714 /* MetaPluBolIta in Resources */,
+				24F857A115BE1EB100DE6714 /* MetaPluBolRom in Resources */,
+				24F857A215BE1EB100DE6714 /* MetaPlusBold in Resources */,
+				24F857A315BE1EB100DE6714 /* MetaPluBooCap in Resources */,
+				24F857A415BE1EB100DE6714 /* MetaPluBooCapIta in Resources */,
+				24F857A515BE1EB100DE6714 /* MetaPluBooIta in Resources */,
+				24F857A615BE1EB100DE6714 /* MetaPluBooRom in Resources */,
+				24F857A715BE1EB100DE6714 /* MetaPlusBook in Resources */,
+				24F857A815BE1EB100DE6714 /* MetaPluMedCap in Resources */,
+				24F857A915BE1EB100DE6714 /* MetaPluMedCapIta in Resources */,
+				24F857AA15BE1EB100DE6714 /* MetaPluMedIta in Resources */,
+				24F857AB15BE1EB100DE6714 /* MetaPluMedRom in Resources */,
+				24F857AC15BE1EB100DE6714 /* MetaPlusMedium in Resources */,
+				24F857AD15BE1EB100DE6714 /* MetaPluNorCap in Resources */,
+				24F857AE15BE1EB100DE6714 /* MetaPluNorCapIta in Resources */,
+				24F857AF15BE1EB100DE6714 /* MetaPluNorIta in Resources */,
+				24F857B015BE1EB100DE6714 /* MetaPluNorRom in Resources */,
+				24F857B115BE1EB100DE6714 /* MetaPlusNormal in Resources */,
+				24F857B215BE1EB100DE6714 /* LICENSE.txt in Resources */,
+				24F857B315BE1EB100DE6714 /* OpenSans-Bold.ttf in Resources */,
+				24F857B415BE1EB100DE6714 /* OpenSans-BoldItalic.ttf in Resources */,
+				24F857B515BE1EB100DE6714 /* OpenSans-ExtraBold.ttf in Resources */,
+				24F857B615BE1EB100DE6714 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				24F857B715BE1EB100DE6714 /* OpenSans-Italic.ttf in Resources */,
+				24F857B815BE1EB100DE6714 /* OpenSans-Light.ttf in Resources */,
+				24F857B915BE1EB100DE6714 /* OpenSans-LightItalic.ttf in Resources */,
+				24F857BA15BE1EB100DE6714 /* OpenSans-Regular.ttf in Resources */,
+				24F857BB15BE1EB100DE6714 /* OpenSans-Semibold.ttf in Resources */,
+				24F857BC15BE1EB100DE6714 /* OpenSans-SemiboldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +620,7 @@
 				24B6C59C15B9CB6700022A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
