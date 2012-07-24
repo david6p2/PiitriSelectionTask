@@ -1,0 +1,43 @@
+{
+    email = "david6p2@hotmail.com";
+    "favorite_teams" =     (
+                {
+            id = 149440611739475;
+            name = "Club Atl\U00e9tico Nacional Oficial";
+        }
+    );
+    "first_name" = David;
+    gender = male;
+    hometown =     {
+        id = 102194039822307;
+        name = "Bogot\U00e1, Colombia";
+    };
+    id = 641811329;
+    "last_name" = Cespedes;
+    link = "http://www.facebook.com/david6p2";
+    locale = "es_LA";
+    location =     {
+        id = 102194039822307;
+        name = "Bogot\U00e1, Colombia";
+    };
+    name = "David Cespedes";
+    sports =     (
+                {
+            id = 109417515751537;
+            name = "Inline hockey";
+        },
+                {
+            id = 108276532526244;
+            name = "Aggressive inline skating";
+        },
+                {
+            id = 103998839637434;
+            name = "Association football";
+        }
+    );
+    timezone = "-5";
+    "updated_time" = "2012-07-15T06:39:48+0000";
+    username = david6p2;
+    verified = 1;
+}
+
