@@ -88,8 +88,24 @@ Let's get learning!</string>
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="sidemenu.png" id="OrL-rD-NqT">
+                                <rect key="frame" x="0.0" y="44" width="199" height="704"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pictureandsocial.png" id="cAn-Lc-h7Y">
+                                <rect key="frame" x="197" y="44" width="344" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="editprofileandcoins.png" id="zuG-Z2-PdE">
+                                <rect key="frame" x="540" y="44" width="484" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="lessonsandactivity.png" id="nEr-Mh-FDC">
+                                <rect key="frame" x="197" y="210" width="827" height="538"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Ik-Y7-Pae">
-                                <rect key="frame" x="286" y="579" width="452" height="62"/>
+                                <rect key="frame" x="500" y="666" width="452" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" image="btn-fbconnect-logout.png">
@@ -104,7 +120,7 @@ Let's get learning!</string>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="htw-04-uC4">
-                                <rect key="frame" x="286" y="307" width="452" height="220"/>
+                                <rect key="frame" x="448" y="255" width="556" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -113,42 +129,67 @@ Let's get learning!</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="glS-jw-AIz">
-                                <rect key="frame" x="20" y="34" width="200" height="200"/>
+                                <rect key="frame" x="219" y="67" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Pbe-fO-gu6">
-                                <rect key="frame" x="372" y="34" width="187" height="41"/>
+                                <rect key="frame" x="372" y="56" width="187" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="32"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.28627452254295349" green="0.25882354378700256" blue="0.25098040699958801" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Y8K-dR-ja7">
-                                <rect key="frame" x="372" y="83" width="187" height="40"/>
+                                <rect key="frame" x="372" y="84" width="187" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                                <color key="textColor" red="0.33725491166114807" green="0.56862747669219971" blue="0.17647059261798859" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="e-mail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="QoZ-l5-k2z">
-                                <rect key="frame" x="372" y="131" width="274" height="34"/>
+                                <rect key="frame" x="227" y="274" width="274" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Birthday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="cSh-j6-zCw">
-                                <rect key="frame" x="459" y="173" width="200" height="44"/>
+                                <rect key="frame" x="313" y="316" width="200" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Birthday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="SCy-Ed-7aD">
-                                <rect key="frame" x="372" y="173" width="98" height="44"/>
+                                <rect key="frame" x="226" y="316" width="98" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.47450980539999998" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" id="ZxK-4F-HHq">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.45098042488098145" green="0.42745101451873779" blue="0.41568630933761597" alpha="1" colorSpace="deviceRGB"/>
+                                <items>
+                                    <navigationItem title="Parent Admin" id="Lll-et-6Bm">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="bP2-O5-Riq">
+                                            <connections>
+                                                <action selector="backButton:" destination="SgR-1a-FUJ" id="K0G-j9-X50"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="040-Hr-CQU">
+                                <rect key="frame" x="20" y="153" width="28" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Parent Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="3IX-SG-HA4">
+                                <rect key="frame" x="56" y="153" width="125" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -162,6 +203,8 @@ Let's get learning!</string>
                         <outlet property="parentFullName" destination="Pbe-fO-gu6" id="NPs-S5-1f1"/>
                         <outlet property="parentLocation" destination="Y8K-dR-ja7" id="ckr-Wy-ub0"/>
                         <outlet property="parentProfilePicture" destination="glS-jw-AIz" id="huK-Fg-wtU"/>
+                        <outlet property="parentSmallName" destination="3IX-SG-HA4" id="4tb-ev-t8Q"/>
+                        <outlet property="smallParentProfilePicture" destination="040-Hr-CQU" id="wth-WT-hex"/>
                     </connections>
                 </viewController>
             </objects>
@@ -171,33 +214,13 @@ Let's get learning!</string>
     <resources>
         <image name="btn-fbconnect-active.png" width="452" height="62"/>
         <image name="btn-fbconnect-logout.png" width="452" height="62"/>
+        <image name="editprofileandcoins.png" width="484" height="166"/>
         <image name="fbconnect-dialog.png" width="503" height="394"/>
+        <image name="lessonsandactivity.png" width="828" height="539"/>
+        <image name="pictureandsocial.png" width="344" height="166"/>
         <image name="piitri-logo-lg.png" width="223" height="95"/>
+        <image name="sidemenu.png" width="196" height="705"/>
     </resources>
-    <classes>
-        <class className="ParentPortalViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ParentPortalViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="disconnectFromFB:"/>
-                <relationship kind="outlet" name="cajaTextoParentPortal" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="parentBirthday" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="parentEmail" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="parentFullName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="parentLocation" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="parentProfilePicture" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="connectWithFB:"/>
-                <relationship kind="outlet" name="cajaTextoLogin" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="loginFBButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="textCreateAccount" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="textWelcome" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>

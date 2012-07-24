@@ -15,10 +15,12 @@
 
 @implementation ParentPortalViewController
 @synthesize parentFullName;
+@synthesize parentSmallName;
 @synthesize parentLocation;
 @synthesize parentEmail;
 @synthesize parentBirthday;
 @synthesize parentProfilePicture;
+@synthesize smallParentProfilePicture;
 @synthesize cajaTextoParentPortal;
 
 /*Para hacer el logout
@@ -77,6 +79,7 @@
     parentFullName.text = [resultado objectForKey:@"name"];
     NSDictionary * ubicacionDic = [[NSDictionary alloc]initWithDictionary:[resultado objectForKey:@"location"]];
     parentLocation.text = [ubicacionDic objectForKey:@"name"];
+    parentSmallName.text = [resultado objectForKey:@"name"];
     
     //Poulate E-mail label
     parentEmail.text = [resultado objectForKey:@"email"];
@@ -89,12 +92,16 @@
     NSData * data = [NSData dataWithContentsOfURL:url];
     UIImage * profilePicLarge = [[UIImage alloc] initWithData:data];
     
+    // Get the user's Small profile picture.
+    NSURL * smallUrl = [NSURL URLWithString:[NSString stringWithFormat:@"https://graph.facebook.com/me/picture?type=small&access_token=%@", accessToken]];
+    NSData * smalldata = [NSData dataWithContentsOfURL:smallUrl];
+    UIImage * profilePicSmall = [[UIImage alloc] initWithData:smalldata];
+
+    
     // Use the profile picture here.
     
     parentProfilePicture.image = profilePicLarge;
-
-    
-    
+    smallParentProfilePicture.image = profilePicSmall;
     
 }
 
@@ -122,6 +129,8 @@
     [self setCajaTextoParentPortal:nil];
     [self setParentEmail:nil];
     [self setParentBirthday:nil];
+    [self setSmallParentProfilePicture:nil];
+    [self setParentSmallName:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -132,6 +141,11 @@
 }
 
 - (IBAction)disconnectFromFB:(id)sender {
+    
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (IBAction)backButton:(id)sender {
     
     [self dismissModalViewControllerAnimated:YES];
 }
